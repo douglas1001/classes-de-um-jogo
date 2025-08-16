@@ -1,39 +1,21 @@
-# 🛡️ Heróis em Ação  
+# ⚔️ Classe de Heróis
 
-Imagine um **mago**, um **guerreiro**, um **monge** e até mesmo um **ninja** entrando em uma arena...  
-Cada um traz consigo sua essência, sua arma e sua forma única de atacar.  
+Um código criado para o terceiro desafio da **DIO** em JavaScript, que dá vida a heróis de diferentes classes — mago, guerreiro, monge e ninja.  
+Cada herói ataca de uma forma única, mostrando a essência da **POO** de forma prática e divertida.
 
-Este pequeno projeto em JavaScript transforma essa ideia em código: uma classe `heroi` capaz de gerar personagens que agem de acordo com seu **tipo**.  
-
-### 🎯 O que acontece aqui?
-- Crie um herói com nome, idade e classe.  
-- Peça para ele **atacar**.  
-- E veja a magia (ou a espada, ou a shuriken) acontecer no console.  
-
-### ⚔️ Exemplos
+### 🚀 Exemplo rápido
 ```js
-let mago = new heroi("Gandalf", 180, "mago");
-mago.atacar(); 
+let heroi1 = new heroi("Gandalf", 180, "mago");
+heroi1.atacar(); 
 // saída: o mago atacou usando magia
 ```
 
-```js
-let ninja = new heroi("Douglas", 30, "ninja");
-ninja.atacar(); 
-// saída: o ninja atacou usando shuriken
-```
-
-### 🧩 Estrutura básica
-- `nome`: Identidade do herói.  
-- `idade`: Quantos anos de batalha (ou sabedoria) ele carrega.  
-- `tipo`: Define a classe — e também a arma do ataque.  
-
-### 🚀 Como executar
-Clone o repositório e rode o arquivo com Node.js:  
-
+### ▶️ Como executar
 ```bash
 node index.js
 ```
 
-### ✨ Inspiração
-Este projeto é uma forma simples (mas divertida) de praticar, explorando construtores, objetos e métodos com um tempero de fantasia medieval.  
+---
+### ℹ️ Informações:
+Pequeno projeto, grande treino: **objetos, construtores e métodos** em ação.  
+Lembrando que a proposta seria exercitar a lógica e poderia ser feito em qualquer codigo.
